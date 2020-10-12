@@ -1,0 +1,33 @@
+:root {
+
+    --saish:yellow;
+}
+
+
+div {
+    background: blue;
+}
+
+h1{
+    color:var(--saish);
+}
+
+h2{
+    color:var(--saish);
+}
+
+h3{
+--saish:pink;
+    color:var(--saish);
+}
+
+::selection {
+
+background:red;
+color:white;
+}
+
+p::selection {
+    color:blue;
+    background: lightskyblue;
+}
